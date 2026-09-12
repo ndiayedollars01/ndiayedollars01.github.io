@@ -1,0 +1,88 @@
+/*
+  La feuille de style des trois pages publiques.
+
+  Elle est volontairement courte : ces pages sont lues une fois, souvent
+  depuis un téléphone bas de gamme, parfois en 3G au bord de la route.
+  Aucune police à télécharger, aucun script, aucune image — la page doit
+  s'afficher avant que la personne n'ait le temps de repartir.
+*/
+
+:root {
+  color-scheme: light dark;
+  --fond: #ffffff;
+  --encre: #14181f;
+  --encre2: #414b58;
+  --gris: #6b7684;
+  --trait: #e4e7ec;
+  --accent: #1f6feb;
+  --encadre: #f5f7fa;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fond: #0f1319;
+    --encre: #eef1f5;
+    --encre2: #c2cad4;
+    --gris: #8e99a6;
+    --trait: #262d36;
+    --accent: #7aa7ff;
+    --encadre: #161c24;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 28px 20px 72px;
+  background: var(--fond);
+  color: var(--encre2);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+main { max-width: 44rem; margin: 0 auto; }
+
+h1 {
+  color: var(--encre);
+  font-size: 1.65rem;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin: 0 0 6px;
+}
+
+h2 {
+  color: var(--encre);
+  font-size: 1.12rem;
+  letter-spacing: -0.01em;
+  margin: 34px 0 10px;
+}
+
+p { margin: 0 0 12px; }
+strong { color: var(--encre); }
+
+.maj { color: var(--gris); font-size: 0.85rem; margin-bottom: 26px; }
+
+.encadre {
+  background: var(--encadre);
+  border: 1px solid var(--trait);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin: 18px 0;
+}
+
+ul { margin: 0 0 12px; padding-left: 1.15rem; }
+li { margin-bottom: 8px; }
+
+a { color: var(--accent); }
+
+.pied {
+  margin-top: 44px;
+  padding-top: 18px;
+  border-top: 1px solid var(--trait);
+  color: var(--gris);
+  font-size: 0.9rem;
+}
+
+.pied a { margin-right: 14px; }
