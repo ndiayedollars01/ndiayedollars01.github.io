@@ -10,7 +10,7 @@
 <main>
 
 <h1>Politique de confidentialité</h1>
-<p class="maj">Yoonu Travel — dernière mise à jour : 9 septembre 2026</p>
+<p class="maj">Yoonu Travel — dernière mise à jour : 30 septembre 2026</p>
 
 <p>Yoonu Travel met en relation des voyageurs et des chauffeurs sur l’axe Fouta ⇄ Dakar. Pour que
 ça fonctionne, l’application a besoin de quelques informations sur toi. Cette page dit lesquelles,
@@ -28,8 +28,12 @@ l’application, à l’écran « Confidentialité ».</p>
   <li><strong>Ta ville de rattachement</strong>, pour faire remonter en premier les départs qui
       passent près de chez toi.</li>
   <li><strong>Ta photo</strong>, si tu en ajoutes une. Elle est facultative.</li>
-  <li><strong>Ton adresse de ramassage</strong>, si tu l’écris en réservant. Elle n’est visible que
-      du chauffeur de ce départ.</li>
+  <li><strong>Les précisions sur l’endroit où tu montes et où tu descends</strong>, si tu en donnes
+      en réservant — « derrière la mosquée, portail vert ». Elles ne sont visibles que du chauffeur
+      de ce départ et de ses adjoints.</li>
+  <li><strong>Ta note vocale, si tu en enregistres une</strong> — une minute au plus, pour dire au
+      chauffeur où te prendre. Seuls le chauffeur de ce départ et ses adjoints peuvent l’écouter, et
+      tu peux l’effacer à tout moment depuis ton billet.</li>
   <li><strong>Tes réservations</strong> — trajets, dates, places, annulations, code de montée.</li>
   <li><strong>Tes veilles</strong> — le trajet et la date que tu demandes à surveiller, jusqu’à
       expiration.</li>
@@ -65,25 +69,30 @@ l’application, à l’écran « Confidentialité ».</p>
 
 <h2>Les passagers qu’un chauffeur inscrit lui-même</h2>
 <p>Un chauffeur peut réserver une place pour quelqu’un qui n’a pas l’application. Nous gardons alors
-le nom, le numéro et l’adresse de ramassage qu’il a saisis, rattachés à ce seul départ. Cette
+le nom, le numéro et l’endroit où elle monte, tels qu’il les a saisis, rattachés à ce seul départ. Cette
 personne n’a pas de compte et ne reçoit aucune notification. Le chauffeur s’engage à ne saisir ces
 informations qu’avec son accord ; elle peut nous écrire à tout moment pour les faire effacer.</p>
 
 <h2>Ce que nous ne collectons pas</h2>
 <p>Aucune donnée bancaire : les places se paient en espèces, directement au chauffeur. Aucune
-position GPS : l’application ne suit pas tes déplacements. Aucun contenu de message, aucun contact
-de ton répertoire. Aucune publicité, et tes données ne sont ni vendues, ni louées, ni transmises à
+position GPS : l’application ne suit pas tes déplacements. Aucun message, hormis la note vocale que
+tu choisis d’enregistrer pour le chauffeur ; aucun contact de ton répertoire. Aucune publicité, et tes données ne sont ni vendues, ni louées, ni transmises à
 un tiers commercial.</p>
 <p>Une seule exception, et elle n’est pas commerciale : sur réquisition de la police, de la
 gendarmerie ou d’un juge, nous remettons ce que la loi nous oblige à remettre. C’est le seul cas où
-des informations sortent de chez nous.</p>
+nous remettons des informations à quelqu’un, en dehors des prestataires techniques qui font tourner
+l’application (voir « Où sont tes données »).</p>
 
 <h2>Qui voit quoi</h2>
 <p>Le numéro de téléphone est la donnée la plus sensible de l’application, et il est protégé des deux
 côtés. Le <strong>numéro du chauffeur</strong> n’apparaît qu’une fois la place réservée — jamais dans
 la liste des départs. Le <strong>numéro d’un voyageur</strong> n’apparaît au chauffeur qu’à partir de
-24 heures avant le départ. Les autres voyageurs ne voient jamais ni ton nom, ni ton numéro, ni ton
-adresse.</p>
+24 heures avant le départ. Les autres voyageurs ne voient jamais ni ton nom, ni ton numéro, ni
+l’endroit où tu montes.</p>
+<p>Un chauffeur peut se faire aider par des <strong>chauffeurs adjoints</strong>, chacun depuis son
+propre compte : ils conduisent pour lui ou gèrent ses départs. Sur les départs de ce chauffeur, ils
+voient les passagers comme lui et dans les mêmes conditions — nom, numéro, précisions sur l’endroit
+où monter et descendre, note vocale. Ils ne voient pas l’ardoise du chauffeur.</p>
 <p><strong>L’équipe de Yoonu Travel</strong> voit ton nom, ton numéro, ta ville, ton adresse e-mail
 si tu en as donné une, l’historique de tes réservations et les quelques chiffres qui en découlent :
 places réservées, annulations, places jamais validées à la montée. C’est ce qui permet de te
@@ -111,6 +120,8 @@ Aucune suspension, aucun refus n’est prononcé par la machine. Tu peux demande
       départ — la durée pendant laquelle un voyageur peut encore agir en justice. Passé ce délai,
       elle est détruite.</li>
   <li><strong>Ton compte et tes réservations :</strong> tant que ton compte existe.</li>
+  <li><strong>Ta note vocale :</strong> effacée automatiquement au plus tard deux jours après le
+      départ — ou dès que tu l’effaces toi-même, chez le chauffeur aussi.</li>
   <li><strong>À la suppression du compte :</strong> nom, numéro, e-mail, photo et ville effacés
       immédiatement, réservations à venir annulées, fiches véhicule supprimées.</li>
   <li><strong>Les écritures de commission :</strong> conservées dix ans, comme la loi l’impose à
@@ -118,9 +129,19 @@ Aucune suspension, aucun refus n’est prononcé par la machine. Tu peux demande
 </ul>
 
 <h2>Où sont tes données</h2>
-<p>Elles sont hébergées chez Supabase, notre hébergeur technique, sur des serveurs situés hors du
-Sénégal. Les échanges entre le téléphone et ces serveurs sont chiffrés, et l’accès est limité à
-l’équipe.</p>
+<p>Elles sont hébergées chez <strong>Supabase</strong>, notre hébergeur technique, sur des serveurs
+situés en <strong>Irlande</strong>, dans l’Union européenne. Trois autres prestataires en reçoivent
+une petite partie, seulement pour faire tourner l’application :</p>
+<ul>
+  <li><strong>Twilio</strong> (États-Unis) envoie le code SMS de connexion : il reçoit ton numéro et
+      ce code.</li>
+  <li><strong>Brevo</strong> (France) envoie les e-mails, si tu as donné une adresse : il reçoit
+      cette adresse.</li>
+  <li><strong>Expo</strong> (États-Unis) achemine les notifications jusqu’à ton téléphone, avec
+      Google ou Apple : il reçoit l’identifiant de notification et le texte de la notification.</li>
+</ul>
+<p>Les échanges entre le téléphone et ces serveurs sont chiffrés, et l’accès aux données est limité
+à l’équipe.</p>
 
 <h2>Tes droits</h2>
 <p>Tu peux consulter et corriger tes informations depuis « Mes informations », et supprimer ton
@@ -142,7 +163,7 @@ nouvelle, un usage nouveau — est annoncé dans l’application avant d’entre
 
 <h2>Nous contacter</h2>
 <p>Yoonu Travel — <a href="mailto:yoonu.travel@gmail.com">yoonu.travel@gmail.com</a></p>
-<p>Traitement déclaré conformément à la loi sénégalaise n° 2008-12 sur la protection des données à
+<p>Ce traitement est soumis à la loi sénégalaise n° 2008-12 sur la protection des données à
 caractère personnel.</p>
 
 <div class="pied">
