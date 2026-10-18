@@ -10,9 +10,9 @@
 <main>
 
 <h1>Politique de confidentialité</h1>
-<p class="maj">Yoonu Travel — dernière mise à jour : 13 octobre 2026</p>
+<p class="maj">Yoonu Travel — dernière mise à jour : 18 octobre 2026</p>
 
-<p>Yoonu Travel met en relation des voyageurs et des chauffeurs sur l’axe Fouta ⇄ Dakar. Pour que
+<p>Yoonu Travel met en relation des voyageurs et des transporteurs sur l’axe Fouta ⇄ Dakar. Pour que
 ça fonctionne, l’application a besoin de quelques informations sur toi. Cette page dit lesquelles,
 pourquoi, qui les voit, et ce que tu peux exiger. Elle reprend mot pour mot le texte affiché dans
 l’application, à l’écran « Confidentialité ».</p>
@@ -29,10 +29,10 @@ l’application, à l’écran « Confidentialité ».</p>
       passent près de chez toi.</li>
   <li><strong>Ta photo</strong>, si tu en ajoutes une. Elle est facultative.</li>
   <li><strong>Les précisions sur l’endroit où tu montes et où tu descends</strong>, si tu en donnes
-      en réservant — « derrière la mosquée, portail vert ». Elles ne sont visibles que du chauffeur
-      de ce départ et de ses adjoints.</li>
+      en réservant — « derrière la mosquée, portail vert ». Elles ne sont visibles que du
+      transporteur de ce départ et de ses chauffeurs.</li>
   <li><strong>Ta note vocale, si tu en enregistres une</strong> — une minute au plus, pour dire au
-      chauffeur où te prendre. Seuls le chauffeur de ce départ et ses adjoints peuvent l’écouter, et
+      chauffeur où te prendre. Seuls le transporteur de ce départ et ses chauffeurs peuvent l’écouter, et
       tu peux l’effacer à tout moment depuis ton billet.</li>
   <li><strong>Tes réservations</strong> — trajets, dates, places, annulations, code de montée.</li>
   <li><strong>Tes veilles</strong> — le trajet et la date que tu demandes à surveiller, jusqu’à
@@ -43,7 +43,7 @@ l’application, à l’écran « Confidentialité ».</p>
       change.</li>
 </ul>
 
-<h2>Si tu es chauffeur, nous demandons en plus</h2>
+<h2>Si tu es transporteur, nous demandons en plus</h2>
 <ul>
   <li><strong>Ton permis de conduire, recto et verso, en photo.</strong> Il prouve à la fois qui tu
       es et que tu conduis — c’est pourquoi nous ne demandons pas la carte nationale par-dessus.</li>
@@ -51,31 +51,34 @@ l’application, à l’écran « Confidentialité ».</p>
       et fait apparaître deux comptes déclarant le même véhicule.</li>
   <li><strong>Tes véhicules</strong>, deux au plus : type, nombre de places, plaque, climatisation.</li>
   <li><strong>Tes départs et ton ardoise</strong> — commissions dues, réglées, et par quel moyen.</li>
+  <li><strong>La raison d’un changement de chauffeur</strong>, quand tes voyageurs avaient déjà
+      réservé : elle leur est transmise avec le nom du nouveau chauffeur, et l’équipe la garde.</li>
   <li><strong>Les sanctions, si l’équipe t’en donne.</strong> Pour un avertissement, une amende ou
       une suspension, nous gardons la date et le motif — et, pour une amende, son montant, sa date
       limite et le jour où elle est reçue ou annulée. Tu en reçois toujours le motif.</li>
 </ul>
 
 <div class="encadre">
-  <p style="margin:0">Les photos du dossier chauffeur sont conservées dans un espace privé : aucun
-  voyageur, aucun autre chauffeur, aucune application ne peut les ouvrir. Seule l’équipe qui examine
+  <p style="margin:0">Les photos du dossier transporteur sont conservées dans un espace privé :
+  aucun voyageur, aucun autre transporteur, aucune application ne peut les ouvrir. Seule l’équipe qui examine
   le dossier les voit, et elles sont retirées de l’application dès la décision prise. Un dossier
   se décide d’ordinaire en moins de vingt-quatre heures.</p>
   <p>Une copie du permis et de la photo du véhicule est ensuite conservée hors de l’application,
   dans un dossier chiffré auquel l’éditeur seul accède. Elle sert à une chose et une seule : pouvoir
-  identifier le chauffeur et son véhicule si un voyageur porte plainte contre lui. Elle n’est jamais
+  identifier le transporteur et son véhicule si un voyageur porte plainte contre lui. Elle n’est jamais
   vendue, ni transmise à une autre entreprise. Elle peut être remise à la police, à la gendarmerie ou
   à la justice sur réquisition.</p>
   <!-- NE PAS REMETTRE « au plus tard dix jours » sans avoir d'abord fait
        tourner la purge automatique : voir app/confidentialite.tsx. -->
 </div>
 
-<h2>Les passagers qu’un chauffeur inscrit lui-même</h2>
-<p>Un chauffeur peut réserver une place pour quelqu’un qui n’a pas l’application. Nous gardons alors
+<h2>Les passagers qu’un transporteur inscrit lui-même</h2>
+<p>Un transporteur, ou son chauffeur, peut réserver une place pour quelqu’un qui n’a pas
+l’application. Nous gardons alors
 le nom, le numéro et l’endroit où elle monte, tels qu’il les a saisis, rattachés à ce seul départ.
-S’il enregistre une note vocale pour retenir cet endroit, elle est gardée de la même façon : seuls lui
-et ses adjoints peuvent l’écouter, et elle est effacée au plus tard deux jours après le départ. Cette
-personne n’a pas de compte et ne reçoit aucune notification. Le chauffeur s’engage à ne saisir ces
+S’il enregistre une note vocale pour retenir cet endroit, elle est gardée de la même façon : seuls le
+transporteur et ses chauffeurs peuvent l’écouter, et elle est effacée au plus tard deux jours après le départ. Cette
+personne n’a pas de compte et ne reçoit aucune notification. Le transporteur s’engage à ne saisir ces
 informations qu’avec son accord ; elle peut nous écrire à tout moment pour les faire effacer.</p>
 
 <h2>Ce que nous ne collectons pas</h2>
@@ -91,22 +94,26 @@ l’application (voir « Où sont tes données »).</p>
 
 <h2>Qui voit quoi</h2>
 <p>Le numéro de téléphone est la donnée la plus sensible de l’application, et il est protégé des deux
-côtés. Le <strong>numéro du chauffeur</strong> n’apparaît qu’une fois la place réservée — jamais dans
-la liste des départs. Le <strong>numéro d’un voyageur</strong> n’apparaît au chauffeur qu’à partir de
-24 heures avant le départ. Les autres voyageurs ne voient jamais ni ton nom, ni ton numéro, ni
+côtés. Le <strong>numéro du chauffeur</strong> — et celui du transporteur, quand un autre conduit —
+n’apparaît qu’une fois la place réservée, jamais dans la liste des départs. Le <strong>numéro d’un
+voyageur</strong> n’apparaît au transporteur et à ses chauffeurs qu’à partir de 24 heures avant le
+départ. Les autres voyageurs ne voient jamais ni ton nom, ni ton numéro, ni
 l’endroit où tu montes.</p>
-<p>Un chauffeur peut se faire aider par des <strong>chauffeurs adjoints</strong>, chacun depuis son
-propre compte : ils conduisent pour lui ou gèrent ses départs. Sur les départs de ce chauffeur, ils
-voient les passagers comme lui et dans les mêmes conditions — nom, numéro, précisions sur l’endroit
-où monter et descendre, note vocale. Ils ne voient pas l’ardoise du chauffeur.</p>
+<p>Un transporteur peut inscrire <strong>ses chauffeurs</strong> par leur nom et leur numéro ;
+chacun entre ensuite depuis son propre compte, pour conduire ou gérer ses départs. Sur les départs de
+ce transporteur, ils voient les passagers comme lui et dans les mêmes conditions — nom, numéro,
+précisions sur l’endroit où monter et descendre, note vocale. Ils ne voient pas son ardoise. Quand il
+confie un départ à l’un d’eux, le nom de ce chauffeur apparaît sur la page du départ, que tout
+voyageur peut lire, et son numéro sur le billet des voyageurs de ce départ seulement, comme les
+siens.</p>
 <p><strong>L’équipe de Yoonu Travel</strong> voit ton nom, ton numéro, ta ville, ton adresse e-mail
 si tu en as donné une, l’historique de tes réservations et les quelques chiffres qui en découlent :
 places réservées, annulations, places jamais validées à la montée. C’est ce qui permet de te
-rappeler après un problème, de vérifier le permis d’un chauffeur, d’encaisser une commission et de
+rappeler après un problème, de vérifier le permis d’un transporteur, d’encaisser une commission et de
 trancher un litige — rien d’autre.</p>
-<p>Deux réponses restent anonymes même pour le chauffeur concerné : la <strong>note</strong> que tu
-lui donnes et ce que tu dis de la <strong>climatisation</strong> du départ. Il voit sa moyenne et le
-nombre d’avis, jamais qui a répondu quoi. Un reçu de commission ne contient jamais le nom ni le
+<p>Deux réponses restent anonymes, même pour le transporteur et son chauffeur : la
+<strong>note</strong> que tu donnes et ce que tu dis de la <strong>climatisation</strong> du départ.
+Le transporteur voit sa moyenne et le nombre d’avis, jamais qui a répondu quoi. Un reçu de commission ne contient jamais le nom ni le
 numéro d’un passager : seulement le nombre de places et la période.</p>
 
 <h2>Comment nous repérons les abus</h2>
@@ -119,10 +126,10 @@ Aucune suspension, aucun refus n’est prononcé par la machine. Tu peux demande
 
 <h2>Combien de temps</h2>
 <ul>
-  <li><strong>Les photos du dossier chauffeur :</strong> retirées de l’application dès que le
+  <li><strong>Les photos du dossier transporteur :</strong> retirées de l’application dès que le
       dossier est accepté ou refusé. Un dossier refusé ne laisse aucune copie.</li>
-  <li><strong>La copie du permis et du véhicule d’un chauffeur accepté :</strong> conservée hors
-      de l’application tant que le chauffeur exerce sur Yoonu Travel, puis cinq ans après son
+  <li><strong>La copie du permis et du véhicule d’un transporteur accepté :</strong> conservée
+      hors de l’application tant que le transporteur exerce sur Yoonu Travel, puis cinq ans après son
       départ. Passé ce délai, elle est détruite.</li>
   <li><strong>Ton compte et tes réservations :</strong> tant que ton compte existe.</li>
   <li><strong>Ta note vocale :</strong> effacée automatiquement au plus tard deux jours après le
@@ -134,7 +141,7 @@ Aucune suspension, aucun refus n’est prononcé par la machine. Tu peux demande
       pendant 5 ans, dans une archive fermée qu’elle seule peut ouvrir. Elle sert à une seule
       chose : dire qui tenait ce compte si quelqu’un porte plainte, ou si la police, la
       gendarmerie ou un juge le demande. Au bout de 5 ans, elle est effacée automatiquement.</li>
-  <li><strong>Les sanctions d’un chauffeur :</strong> gardées tant que son compte existe, effacées
+  <li><strong>Les sanctions d’un transporteur :</strong> gardées tant que son compte existe, effacées
       avec lui.</li>
   <li><strong>Le journal des gestes de l’équipe :</strong> chaque décision de l’équipe y laisse
       une ligne — la date, le geste, son motif, le montant d’une amende. Chaque ligne est effacée
