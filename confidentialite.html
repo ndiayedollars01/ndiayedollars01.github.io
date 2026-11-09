@@ -10,7 +10,7 @@
 <main>
 
 <h1>Politique de confidentialité</h1>
-<p class="maj">Yoonu Travel — dernière mise à jour : 8 novembre 2026</p>
+<p class="maj">Yoonu Travel — dernière mise à jour : 9 novembre 2026</p>
 
 <p>Yoonu Travel met en relation des voyageurs et des transporteurs sur l’axe Fouta ⇄ Dakar. Pour que
 ça fonctionne, l’application a besoin de quelques informations sur toi. Cette page dit lesquelles,
@@ -23,8 +23,8 @@ l’application, à l’écran « Confidentialité ».</p>
       un code reçu par WhatsApp ou par SMS. Sans lui, aucun compte n’est possible.</li>
   <li><strong>Ton nom.</strong> Le chauffeur doit savoir qui il attend, et toi savoir avec qui tu
       pars.</li>
-  <li><strong>Ton adresse e-mail, si tu en donnes une.</strong> Facultative, elle sert à retrouver
-      ton compte si tu changes de numéro.</li>
+  <li><strong>Ton adresse e-mail, si tu en donnes une.</strong> Facultative, elle sert à t’écrire au
+      sujet de ton compte.</li>
   <li><strong>Ta ville de rattachement</strong>, pour faire remonter en premier les départs qui
       passent près de chez toi.</li>
   <li><strong>Ta photo</strong>, si tu en ajoutes une. Elle est facultative.</li>
@@ -162,8 +162,8 @@ peux écrire à l’équipe.</p>
   <li><strong>Les photos du dossier transporteur :</strong> retirées de l’application dès que le
       dossier est accepté ou refusé. Un dossier refusé ne laisse aucune copie.</li>
   <li><strong>La copie du permis et du véhicule d’un transporteur accepté :</strong> conservée
-      hors de l’application tant que le transporteur exerce sur Yoonu Travel, puis cinq ans après son
-      départ. Passé ce délai, elle est détruite.</li>
+      hors de l’application, chiffrée, tant que le transporteur exerce sur Yoonu Travel, puis cinq ans
+      après son départ. Passé ce délai, elle est détruite, sauvegardes comprises.</li>
   <li><strong>Ton compte et tes réservations :</strong> tant que ton compte existe.</li>
   <li><strong>Ta note vocale :</strong> effacée automatiquement au plus tard deux jours après le
       départ — ou dès que tu l’effaces toi-même, chez le chauffeur aussi.</li>
@@ -206,11 +206,14 @@ une petite partie, seulement pour faire tourner l’application :</p>
       par WhatsApp : il reçoit ton numéro et ce code.</li>
   <li><strong>Orange</strong> (Sénégal) envoie le code de connexion par SMS : il reçoit ton numéro et
       ce code. S’il ne peut pas l’acheminer, <strong>Twilio</strong> (États-Unis) l’envoie à sa place.</li>
-  <li><strong>Brevo</strong> (France) envoie les e-mails, si tu as donné une adresse : il reçoit
-      cette adresse.</li>
   <li><strong>Google</strong> (États-Unis) achemine les notifications sur Android, et
       <strong>Expo</strong> et <strong>Apple</strong> (États-Unis) sur iPhone : ils reçoivent
       l’identifiant de notification et le texte de la notification.</li>
+  <li><strong>Google Drive</strong> (États-Unis) garde une sauvegarde des copies des dossiers des
+      transporteurs acceptés. Elles sont chiffrées avant l’envoi : Google n’en a pas la clé et ne peut
+      pas les lire.</li>
+  <li><strong>Brevo</strong> (France) envoie les e-mails, si tu as donné une adresse : il reçoit
+      cette adresse.</li>
   <li><strong>Wave</strong> et <strong>Orange Money</strong> (Sénégal), si tu es transporteur et que tu
       règles ta commission par eux : nous n’en recevons que le montant, la date et l’identifiant de la
       transaction.</li>
@@ -224,17 +227,18 @@ une petite partie, seulement pour faire tourner l’application :</p>
 compte depuis l’onglet Compte, sans avoir à le demander à qui que ce soit — voir la page
 <a href="suppression-compte.html">Supprimer son compte</a>. Tu peux aussi nous écrire pour obtenir
 une copie de tes données, leur rectification, leur effacement, ou pour t’opposer à un traitement :
-nous répondons sous trente jours.</p>
+nous répondons sous trente jours au plus, et sous une semaine pour une copie de tes données.</p>
 <p>Si notre réponse ne te convient pas, tu peux saisir la <strong>Commission de protection des
 données personnelles (CDP)</strong>, l’autorité sénégalaise chargée de faire respecter la loi
 2008-12.</p>
 
 <h2>Âge minimum</h2>
 <p>Un compte est réservé aux personnes majeures. Un mineur voyage sous la responsabilité de l’adulte
-qui réserve pour lui et qui l’accompagne : nous gardons alors ce que cet adulte saisit pour lui, comme
-pour toute personne pour qui l’on réserve, et l’adulte en répond. En dehors de ce cas, nous ne
-collectons pas sciemment les données d’un mineur ; si un mineur a ouvert un compte, écris-nous et il
-sera supprimé.</p>
+qui réserve pour lui, qu’il l’accompagne ou non : nous gardons alors ce que cet adulte saisit pour lui,
+comme pour toute personne pour qui l’on réserve, et l’adulte en répond. En dehors de ce cas, nous ne
+collectons pas sciemment les données d’un mineur. Nous ne demandons ni pièce d’identité ni date de
+naissance, pour ne rien collecter de plus : si un mineur a ouvert un compte, il est supprimé dès que
+nous l’apprenons — écris-nous.</p>
 
 <h2>Si ce texte change</h2>
 <p>La date en tête de page est celle de la dernière révision. Un changement important — une donnée
