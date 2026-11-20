@@ -1,4 +1,4 @@
-# Les pages publiques — à héberger avant la mise en ligne sur Google Play
+# Les pages publiques, à héberger avant la mise en ligne sur Google Play
 
 > ⚠️ **Ce dossier s'appelait `web/`.** Il a été renommé `docs/` le
 > 9 septembre 2026 pour une raison bête et incontournable : GitHub Pages
@@ -7,7 +7,7 @@
 > suivre écrite ici était donc impossible à appliquer telle quelle.
 
 Ce dossier ne fait pas partie de l'application. Ce sont quatre fichiers
-statiques — aucun script, aucune dépendance — destinés à être publiés à
+statiques (aucun script, aucune dépendance), destinés à être publiés à
 une **adresse web publique**, parce que Google Play réclame deux liens
 qu'une page interne à l'application ne peut pas satisfaire :
 
@@ -25,7 +25,7 @@ la racine du site renvoie une erreur 404.
 
 Le plus simple, et gratuit : **GitHub Pages**.
 
-1. Pousser le dépôt sur GitHub — les pages sont servies depuis ce qui y
+1. Pousser le dépôt sur GitHub : les pages sont servies depuis ce qui y
    est publié, pas depuis le disque local.
 2. Sur le dépôt, `Settings` → `Pages`.
 3. `Source` : **Deploy from a branch**, branche `master`, dossier
@@ -41,7 +41,7 @@ Le plus simple, et gratuit : **GitHub Pages**.
 
 ⚠️ **Le dépôt doit être public.** GitHub Pages n'est disponible sur un
 dépôt privé qu'avec un compte payant. S'il est privé et doit le rester,
-n'importe quel hébergement statique gratuit fait l'affaire — Netlify ou
+n'importe quel hébergement statique gratuit fait l'affaire : Netlify ou
 Vercel acceptent un dossier déposé tel quel, il n'y a rien à construire.
 
 ## La règle à ne pas oublier
@@ -58,5 +58,5 @@ l'autre sur le web, c'est précisément ce qu'un litige vient chercher.
 
 Le NINEA et le RCCM apparaissent comme « en cours d'immatriculation »
 dans `conditions.html` comme dans l'application. Le jour de
-l'immatriculation, les deux se corrigent — ainsi que
+l'immatriculation, les deux se corrigent, ainsi que
 `MENTIONS_ENTREPRISE` dans `src/lib/legal.ts`, qui alimente les reçus.
